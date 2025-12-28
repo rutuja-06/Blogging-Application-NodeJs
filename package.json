@@ -1,0 +1,29 @@
+{
+  "name": "blogging-application-nodejs",
+  "version": "1.0.0",
+  "description": "This is the Blogging Application Using NodeJs",
+  "homepage": "https://github.com/rutuja-06/Blogging-Application-NodeJs#readme",
+  "bugs": {
+    "url": "https://github.com/rutuja-06/Blogging-Application-NodeJs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rutuja-06/Blogging-Application-NodeJs.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
