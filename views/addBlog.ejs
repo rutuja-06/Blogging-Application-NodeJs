@@ -8,11 +8,19 @@
     <%- include('./partials/nav') %>
 
     <div class="container mt-3">
-      <form>
+      <form action="/blog" method="post">
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"
-            >Title</label
-          >
+          <label for="coverImage" class="form-label">Cover Image</label>
+          <input
+            type="file"
+            class="form-control"
+            id="coverImage"
+            name="coverImage"
+            aria-describedby="coverImage"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="title" class="form-label">Title</label>
           <input
             type="text"
             class="form-control"
@@ -20,6 +28,19 @@
             name="title"
             aria-describedby="title"
           />
+        </div>
+        <div class="mb-3">
+          <label for="body" class="form-label">Body</label>
+          <textarea
+            class="form-control"
+            id="body"
+            name="body"
+            placeholder="Leave a comment here"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary mb-3">Submit</button>
         </div>
       </form>
     </div>

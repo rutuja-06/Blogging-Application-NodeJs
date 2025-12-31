@@ -7,4 +7,9 @@ router.get('/add-new', (req, res) =>{
     });
 });
 
+router.post('/', (req, res) =>{
+    console.log(req.body);
+    return res.redirect("/");
+});
+
 module.exports = router;
