@@ -1,3 +1,10 @@
 1. Password hashing using nodeJs crypto
 2. npm install cookie-parser
 3. JWT
+
+
+imports
+1. express
+2. ejs
+3. nodemon
+4. cypto hashmap
