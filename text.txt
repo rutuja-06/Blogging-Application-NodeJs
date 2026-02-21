@@ -8,3 +8,5 @@ imports
 2. ejs
 3. nodemon
 4. cypto hashmap
+5. jsonWebToken
+6. multer - to store images
